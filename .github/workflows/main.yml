@@ -14,5 +14,5 @@ jobs:
               uses: pozil/auto-assign-issue@v2
               with:
                   assignees: planetoftheweb
-                  numOfAssignee: 2
-                  allowSelfAssign: false
+                  numOfAssignee: 1
+                  allowSelfAssign: true
