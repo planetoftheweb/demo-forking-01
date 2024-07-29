@@ -11,7 +11,12 @@ body {
 }
 
 /* Heading Styles */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Play", sans-serif;
   font-weight: 700;
   color: #4e2e88;
@@ -19,7 +24,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Section Heading Adjustment for Fixed Navigation */
-section h1::before, section h2::before, section h3::before, section h4::before, section h5::before, section h6::before {
+section h1::before,
+section h2::before,
+section h3::before,
+section h4::before,
+section h5::before,
+section h6::before {
   content: "";
   display: block;
   height: 50px;
@@ -29,7 +39,8 @@ section h1::before, section h2::before, section h3::before, section h4::before, 
 
 /* Section Content Styles */
 section p {
-  max-width: 800px; /* Adjusted width from 1000px to 800px */
+  max-width: 800px;
+  /* Adjusted width from 1000px to 800px */
   padding-bottom: .1em;
   margin: auto 10%;
 }
@@ -72,8 +83,10 @@ nav.scrolled {
   background-color: rgba(21, 0, 35, 0.95);
 }
 
-nav.scrolled{
-  background-color: rgba(21, 0, 35, 0.95); /* Semi-transparent purple background */}
+nav.scrolled {
+  background-color: rgba(21, 0, 35, 0.95);
+  /* Semi-transparent purple background */
+}
 
 nav.scrolled svg {
   margin-top: 0;
@@ -93,7 +106,8 @@ nav a {
   font-size: .8em;
 }
 
-nav a:hover, nav a:hover svg {
+nav a:hover,
+nav a:hover svg {
   color: #ffb700;
 }
 
@@ -138,7 +152,7 @@ nav a:hover, nav a:hover svg {
 
 #lightbox {
   display: none;
-  background-color: rgba(0,0,0,0.9);
+  background-color: rgba(0, 0, 0, 0.9);
   position: fixed;
   z-index: 1000;
   top: 0;
@@ -155,7 +169,7 @@ nav a:hover, nav a:hover svg {
   max-height: 100%;
   margin: 0;
   position: relative;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 #lightbox img {
@@ -202,7 +216,8 @@ nav a:hover, nav a:hover svg {
   background: rgba(255, 255, 255, 0.3);
 }
 
-.prev, .next {
+.prev,
+.next {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -216,4 +231,36 @@ nav a:hover, nav a:hover svg {
 
 .next {
   right: 40px;
+}
+
+/* Dark Mode Styles */
+[data-theme="dark"] {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+[data-theme="dark"] nav {
+  background-color: rgba(21, 0, 35, 0.95);
+}
+
+[data-theme="dark"] nav a {
+  color: #e0e0e0;
+}
+
+[data-theme="dark"] nav a:hover,
+[data-theme="dark"] nav a:hover svg {
+  color: #ffb700;
+}
+
+[data-theme="dark"] section {
+  border-bottom: 1px dotted #e0e0e0;
+}
+
+[data-theme="dark"] #lightbox {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+[data-theme="dark"] #lightbox h3,
+[data-theme="dark"] #lightbox p {
+  color: #e0e0e0 !important;
 }
