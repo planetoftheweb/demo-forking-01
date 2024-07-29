@@ -7,6 +7,7 @@ This project showcases a gallery of AI-generated images created with Midjourney.
 - **Scroll Behavior**: Smooth scrolling enabled for a better user experience. See [scroll-behavior](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior).
 - **CSS Transitions**: Applied for smooth visual effects during scroll and image interactions. Explore [CSS Transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/transition).
 - **Lightbox Feature**: Provides a full-screen view of images with navigation controls.
+- **Dark Mode**: Toggle between light and dark themes for a better viewing experience.
 
 ## Notable Libraries and Technologies
 - **Pico.css**: Minimal CSS framework for styling. [Pico.css](https://picocss.com)

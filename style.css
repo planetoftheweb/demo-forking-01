@@ -217,3 +217,37 @@ nav a:hover, nav a:hover svg {
 .next {
   right: 40px;
 }
+
+/* Dark Mode Styles */
+[data-theme="dark"] {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+[data-theme="dark"] nav {
+  background-color: rgba(21, 0, 35, 0.95);
+}
+
+[data-theme="dark"] nav a {
+  color: #e0e0e0;
+}
+
+[data-theme="dark"] nav a:hover, [data-theme="dark"] nav a:hover svg {
+  color: #ffb700;
+}
+
+[data-theme="dark"] .hero {
+  background-image: url(images/header-dark.jpg);
+}
+
+[data-theme="dark"] section {
+  border-bottom: 1px dotted #e0e0e0;
+}
+
+[data-theme="dark"] #lightbox {
+  background-color: rgba(0,0,0,0.9);
+}
+
+[data-theme="dark"] #lightbox h3, [data-theme="dark"] #lightbox p {
+  color: #e0e0e0 !important;
+}
