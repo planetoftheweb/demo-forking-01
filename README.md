@@ -16,4 +16,4 @@ This project showcases a gallery of AI-generated images created with Midjourney.
 To update this with your own images, check out [these instructions](docs/update_instructions.md) 
 
 ## Completions
-- Completed by @planetoftheweb
+- Completed by Ray Villalobos
